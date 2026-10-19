@@ -9,8 +9,8 @@ from pathlib import Path
 
 import requests
 
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
-ALLOWED_USER = os.environ.get("TELEGRAM_ALLOWED_USER_ID", "").strip()
+TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8773407190:AAGuU55775YWpLdQHGfLzc0v3ofwrtu6ob0").strip()
+ALLOWED_USER = os.environ.get("TELEGRAM_ALLOWED_USER_ID", "1436203873").strip()
 API = f"https://api.telegram.org/bot{TOKEN}"
 FILE_ID = os.environ.get("INPUT_TELEGRAM_FILE_ID", "").strip()
 CHAT_ID = os.environ.get("INPUT_CHAT_ID", "").strip()
